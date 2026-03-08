@@ -89,9 +89,20 @@ hr {
     font-weight: 800;
 }
 
-.attribution {
-    text-align: center;
-    font-size: 0.8rem;
-    color: hsl(0, 1%, 44%);
-    margin-top: 2rem;
+
+/* button */
+.button {
+  border: none;
+  color: hsl(259, 100%, 65%);
+  padding: 15px 32px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin: 4px 2px;
+  border-radius: 8px;
+  cursor: pointer;
 }
