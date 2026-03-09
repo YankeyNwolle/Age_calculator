@@ -37,7 +37,9 @@ form.addEventListener("submit", function(event) {
         calcul_years.textContent = calcul_age;
     }
     else {
-        year.style.border = "red";
+        year.style.border = "1px solid red";
+        const label2 = year.parentElement.querySelector('label');
+        label2.style.color = "red";
         
     }
 })
